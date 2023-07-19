@@ -31,7 +31,7 @@ bot.on("text", async ctx => {
         if (el.message.caption) {
           collection["caption"] = includedCustomTest
             ? message[0].message.text.slice(6)
-            : el.message.caption.split("\n").slice(0, -2).join(" ");
+            : el.message.caption.split("\n").slice(0, -2).join("\n");
         }
 
         if (el.message.reply_markup) {
