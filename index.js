@@ -100,9 +100,9 @@ bot.on("text", async ctx => {
     } catch (error) {
       // console.error("Ошибка при отправке sendMediaGroup:", error);
     }
-
-    collection = {};
   }
+
+  collection = {};
 
   // const photos = ctx.update.message.photo;
   // const chatId = ctx.chat.id;
